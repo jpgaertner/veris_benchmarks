@@ -30,4 +30,3 @@ export OMP_NUM_THREADS=1
 cd ${SLURM_SUBMIT_DIR}
 
 srun --cpu_bind=cores ./../build/mitgcmuv
-#srun  ./a.out
