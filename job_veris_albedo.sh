@@ -21,8 +21,6 @@ echo "hosts: $hostlist"
 # make new files created in this job readable for everybody
 umask 022
 
-# load your modules
-
 # maximum possible stacksize
 ulimit -s unlimited
 
