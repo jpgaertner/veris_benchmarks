@@ -40,7 +40,7 @@
                    'EXFuwind','EXFvwind',
   fileName(3) = 'snapshot',
 # frequency(3) = 1.,
-  frequency(3) = -120.,
+  frequency(3) = -1200.,
   timePhase(3) =  0.,
   missing_value(3) = -999.,
  &
