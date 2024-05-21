@@ -20,6 +20,6 @@ ulimit -l 1067008 # 1GB
 export OMP_NUM_THREADS=1
 cd ${SLURM_SUBMIT_DIR}
 
-export OMPI_MCA_pml_ucx_opal_mem_hooks=1
+export OMPI_MCA_opal_common_ucx_opal_mem_hooks=1
 
 srun --cpu_bind=cores ./../build/mitgcmuv > output.txt
