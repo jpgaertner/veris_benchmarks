@@ -22,4 +22,4 @@ cd ${SLURM_SUBMIT_DIR}
 
 export OMPI_MCA_opal_common_ucx_opal_mem_hooks=1
 
-srun --cpu_bind=cores ./../build/mitgcmuv > output.txt
+srun ./../build/mitgcmuv > output.txt
