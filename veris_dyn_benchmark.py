@@ -28,7 +28,8 @@ def get_state(infile):
             'recip_deltatTherm' : 1 / 120,
             'deltatDyn'         : 120,
             'gridcellWidth'     : 8000,
-            'veros_fill'        : False
+            'veros_fill'        : False,
+            'useAdaptiveEVP'    : True
         }
 
         with state.settings.unlock():
