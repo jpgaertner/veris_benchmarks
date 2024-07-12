@@ -39,8 +39,7 @@ def get_state(infile):
             'useRelativeWind'   : False,
             'evpAlpha'          : 123456.7,
             'evpBeta'           : 123456.7,
-            'nEVPsteps'         : 1
-            
+            'nEVPsteps'         : 400
         }
 
         with state.settings.unlock():
