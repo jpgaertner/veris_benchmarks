@@ -1,0 +1,38 @@
+{
+    "benchmarks": {
+        "veris_dyn_benchmark.py": [
+            {
+                "component": "numpy",
+                "per_iteration": {
+                    "best": 1.2658775120507926,
+                    "mean": 1.383516395087354,
+                    "stdev": 0.10985931787335128,
+                    "worst": 1.8257477020379156
+                },
+                "size": 43776,
+                "wall_time": 69.1758197543677
+            }
+        ]
+    },
+    "settings": {
+        "burnin": 0,
+        "components": [
+            "numpy"
+        ],
+        "debug": false,
+        "decomp": "16 16",
+        "float_type": "float64",
+        "mpiexec": null,
+        "nproc": 256,
+        "only": [
+            "veris_dyn_benchmark.py"
+        ],
+        "outfile": "bm0",
+        "pyom2_lib": null,
+        "sizes": [
+            50000.0
+        ],
+        "slurm": false,
+        "timesteps": 50
+    }
+}
