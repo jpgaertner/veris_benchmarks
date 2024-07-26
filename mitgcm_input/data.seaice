@@ -11,7 +11,7 @@
  SEAICE_deltaMin    = 2.e-9,
 #SEAICEpressReplFac = 0.,
  SEAICEaEVPcoeff      = 0.5,
- SEAICEnEVPstarSteps  = 500,
+ SEAICEnEVPstarSteps  = 400,
 # The following two parameters are required by mEVP and aEVP,
 # but they are TRUE by default:
  SEAICEuseEVPstar     = .TRUE.,
@@ -32,9 +32,9 @@
 #SEAICEadvHEFF = .FALSE.,
 #SEAICEadvAREA = .FALSE.,
 #SEAICE_initialHeff = 0.3,
- HeffFile  = 'ice_file.bin',
- AreaFile  = 'area_file.bin',
- HsnowFile = 'snow_file.bin',
+ HeffFile  = 'ice.bin',
+ AreaFile  = 'area.bin',
+ HsnowFile = 'snow.bin',
  &
 
  &SEAICE_PARM03
