@@ -54,7 +54,7 @@
 
 # Input datasets
  &PARM05
- bathyFile       = 'bathy_3c_8000.bin',
- uVelInitFile    = 'uVel_8000.bin',
- vVelInitFile    = 'vVel_8000.bin',
+ bathyFile       = 'bathy.bin',
+ uVelInitFile    = 'uVel.bin',
+ vVelInitFile    = 'vVel.bin',
  &
