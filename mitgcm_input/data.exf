@@ -24,8 +24,8 @@
 #vwindstartdate2   = 000000,
  vwindperiod       = 0,
 #
- uwindfile         = 'Uwindfield_shifted_8000.bin',
- vwindfile         = 'Vwindfield_shifted_8000.bin',
+ uwindfile         = 'uWind.bin',
+ vwindfile         = 'vWind.bin',
  &
 
 # *********************
