@@ -1,0 +1,38 @@
+{
+    "benchmarks": {
+        "veris_dyn_benchmark_10**7.py": [
+            {
+                "component": "jax",
+                "per_iteration": {
+                    "best": 590.8851040109876,
+                    "mean": 603.8621192281785,
+                    "stdev": 8.010614609351055,
+                    "worst": 614.8029219519813
+                },
+                "size": 51376,
+                "wall_time": 10265.656026879034
+            }
+        ]
+    },
+    "settings": {
+        "burnin": 3,
+        "components": [
+            "jax"
+        ],
+        "debug": false,
+        "decomp": "1 1",
+        "float_type": "float64",
+        "mpiexec": null,
+        "nproc": 1,
+        "only": [
+            "veris_dyn_benchmark_10**7.py"
+        ],
+        "outfile": "jax_10**7.json",
+        "pyom2_lib": null,
+        "sizes": [
+            50000.0
+        ],
+        "slurm": true,
+        "timesteps": 20
+    }
+}
