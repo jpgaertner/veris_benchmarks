@@ -1,6 +1,7 @@
 # veris_benchmarks
-Benchmark and simulation routines, results, and plotting scripts for the publication
+[![DOI](https://zenodo.org/badge/912792588.svg)](https://doi.org/10.5281/zenodo.14604717)
 
+Benchmark and simulation routines, results, and plotting scripts for the publication  
 Gärtner, J. P., Losch, M., Jochum, M., and Nuterman, R. (2025). Veris: Fast &amp; Efficient Sea-Ice Modeling in Python with GPU Acceleration.
 
 
