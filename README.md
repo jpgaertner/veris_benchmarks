@@ -6,17 +6,17 @@ Gärtner, J. P., Losch, M., Jochum, M., and Nuterman, R. (2025). Veris: Fast &am
 
 Setting up Veros & Veris:
 
-Download Veros via git clone https://github.com/team-ocean/veros.git
+Download Veros via git clone https://github.com/team-ocean/veros.git  
 Download Veris via git clone https://github.com/team-ocean/veris.git
 
-Create the Veros conda environment via
-conda env create -f conda-environment.yml
-conda activate veros
-conda install python=3.10
-pip install veros
-pip install veris
-conda install jaxlib=*=*cuda* jax cuda-nvcc -c conda-forge -c nvidia
-conda install h5py=3.11.0=mpi_mpich_py310h086384f_0
+Create the Veros conda environment via  
+conda env create -f conda-environment.yml  
+conda activate veros  
+conda install python=3.10  
+pip install veros  
+pip install veris  
+conda install jaxlib=*=*cuda* jax cuda-nvcc -c conda-forge -c nvidia  
+conda install h5py=3.11.0=mpi_mpich_py310h086384f_0  
 conda install -c conda-forge mpi4jax
 
 
